@@ -1,0 +1,137 @@
+/* ---------------------------------fiact--------------------------------- */
+.container-facts{ 
+    background: #B52025;
+     color: #fff;
+    
+    }
+    .facts{ 
+        text-align: center;
+        margin: 40px 0px;
+    }
+    .facts h3{ font-size: 3em;}
+    .facts h4{   
+        font-size: 1em; margin-top: 10px;
+        font-weight: normal;
+    }
+
+    /* ---------------------------------BLOG --------------------------------- */
+.blogs{
+        width: 400px;
+        height: 450px;        
+        margin: 20px 0px;
+        background: #fff;
+}
+.blog-img{   
+       width: 350px;
+}
+.blog-img img{ width: 100%; height: 100%;}
+.content-blog{
+
+    width: 443px;
+
+}
+.content-blog span{ 
+    color: #B52025; 
+    font-weight: bold;  
+}
+.content-blog h4{  margin-top: 10px; }    
+.content-blog p{ 
+    margin: 10px 0px; 
+    padding-bottom: 10px;     
+    color: #424242;     
+    font-style: normal;
+    font-family: "Open Sans",sans-serif;
+    font-weight: 400;
+}
+.content-blog a{  
+    display: flex;
+    flex-direction: row;
+    text-align: center; 
+    justify-content: center;
+}
+.btn-blog{
+    text-decoration: none;   
+    color: #B52025;   
+    border: 2px solid #B52025;
+    width: 200px;
+    padding: 10px;  
+    transition: all 0.3s;
+    margin: auto;
+    justify-content: center;
+}
+.btn-blog:hover{
+    color: #FFF; 
+    background: #B52025;
+}
+    /* --------------------------------- carrusel  --------------------------------- */
+.carrusel-title{ 
+    text-align: center;
+    margin: 10px 0px;
+    text-transform: uppercase;
+    font-size: 0.8em;
+}
+.team-title{ 
+    text-align: center;
+    font-size: 0.8em;
+    margin: 20px 0px;
+}
+.team-contet{ 
+    text-align: center;
+    margin: 20px 0px;
+} 
+.team-img {
+    width: 200px;
+    height: 270px;
+    background: #424242;
+    border: 1px solid #B52025;
+    margin: auto;
+}
+.team-img img{ 
+    width: 100%;
+    height: 100%;
+ }
+.team-contet h4{ 
+    text-align: center;
+    margin-top: 10px;
+    font-size: 0.8em;
+}
+    
+
+ /*------------------------------- media------------------------------- */
+ @media (min-width: 576px) {
+    .team-img{
+        width: 230px;
+        height: 300px;
+    }
+
+}
+@media (min-width: 768px) {  
+
+    
+
+/* -------------blog------------- */
+.blogs {
+    width: 200px;
+    height: 450px;
+}
+.blog-img{width: 200px;}
+.content-blog {width: 200px;}
+
+.team{
+
+}
+.team-img{
+    width: 100px;
+    height: 150px;
+}
+
+}
+@media (min-width: 992px) { 
+    .facts{
+        margin: 100px 0px; 
+    }
+}
+
+@media (min-width: 1200px) {
+
+}
